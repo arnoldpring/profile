@@ -1,0 +1,27 @@
+body {
+    .title-wrap {
+        border-bottom: 1px #c7c7c7 solid;
+        .title .latest {
+            border-right: 1px #c7c7c7 solid;
+        }
+    }
+    .latestNews {
+        .content-wrap:first-child {
+            border-right: 1px #c7c7c7 solid;
+        }
+    }
+    footer {
+        .information {
+            border-left: 1px gray solid;
+            border-right: 1px gray solid;
+            ul li {
+                margin: 0.5rem 0;
+            }
+        }
+        .contactUs {
+            ul li {
+                margin: 0.5rem 0;
+            }
+        }
+    }
+}
